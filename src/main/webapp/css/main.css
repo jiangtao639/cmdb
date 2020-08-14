@@ -1,0 +1,81 @@
+main{
+    background-color: white;
+    /*height: 800px;*/
+}
+
+main div{
+    display: block;
+    margin: 0 50px;
+}
+main div p{
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+    color: black;
+    text-align: left;
+}
+
+.logo{
+    /*padding-top: 73px;*/
+    margin: 0 0;
+}
+
+/*introduction=================================================================================*/
+.introduction {
+    display: block;
+    padding-top: 100px;
+}
+.introduction h1 {
+    font-size: 25px;
+    font-family: Helvetica;
+    color:#1a3e68;
+    text-align: center;
+}
+.introduction p {
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+    color: black;
+    text-align: left;
+}
+/*news=================================================================================*/
+
+.news {
+    display: block;
+}
+.news h2{
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #1a3e68;
+    text-align: left;
+}
+
+
+/*publications=================================================================================*/
+
+.publication{
+    background-color: #363d63;
+    margin: 10px 50px;
+    padding: 10px 20px;
+}
+
+.publication p {
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+    color:white;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.publication p a{
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+    color:#d2ba1e;
+    text-decoration:none;
+}
+
+.publication p a:hover{
+    color:#f6df03;
+}

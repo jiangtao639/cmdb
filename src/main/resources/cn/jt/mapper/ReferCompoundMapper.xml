@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.jt.mapper.ReferCompoundMapper">
+    <select id="findReferCompoundAllByPage" parameterType="referCompound" resultType="referCompound">
+        select * from referCompound
+        <where>
+            <if test="Name!=null and Name!=''">
+                and Name like concat('%',#{Name},'%')
+            </if>
+            <if test="Inchi!=null and Inchi!=''">
+                and Inchi like concat('%',#{Inchi},'%')
+            </if>
+            <if test="Formula!=null and Formula!=''">
+                and Formula like concat('%',#{Formula},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,77 @@
+/*格式化布局*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/*awesome图标*/
+i {
+    margin-left: 2px;
+    color: white;
+}
+
+/*导航栏nav样式*/
+.navbar-user {
+    position: fixed;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: #306f0d;
+    border-bottom-color: #679e6d;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+/*brand图标*/
+#navbar-brand-user {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#navbar-brand-user:hover {
+    color: #f6df03;
+}
+
+/*导航栏可点击菜单设置*/
+#dropdown-toggle-user {
+    color: white;
+}
+
+#dropdown-toggle1-user {
+    color: white;
+}
+
+/*下拉菜单样式*/
+#menu1-user {
+    margin-top: 5px;
+}
+
+#menu2-user {
+    margin-top: 5px;
+}
+
+/*导航栏按钮*/
+#single1-user {
+    color: white;
+}
+
+#single2-user {
+    color: white;
+}
+
+#single3-user {
+    color: white;
+}
+
+#single4-user {
+    color: white;
+}
+
+
+
+
+

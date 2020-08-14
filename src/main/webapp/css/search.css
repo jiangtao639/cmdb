@@ -1,0 +1,26 @@
+main{
+    background-color: white;
+    height: 900px;
+}
+
+main div{
+    display: block;
+    margin: 0 50px;
+    padding-top: 100px;
+}
+
+main div h1{
+
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #1a3e68;
+    text-align: left;
+}
+
+main div p{
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+    color: black;
+    text-align: left;
+}

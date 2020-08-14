@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!--自定义别名-->
+    <typeAliases>
+        <typeAlias type="cn.jt.entity.ReferCompound" alias="referCompound"/>
+    </typeAliases>
+
+
+    <!--配置分页助手插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
+
+
+    <!--加载映射文件-->
+<!--    <mappers>-->
+<!--        <mapper resource="cn\jt\mapper\ReferCompoundMapper.xml"/>-->
+<!--    </mappers>-->
+</configuration>
