@@ -80,7 +80,7 @@
                         <%--            <td><input type="checkbox"></td>--%>
                     <td>${s.count}</td>
                     <td><a href="${pageContext.request.contextPath}/webpages/browse/compoundDetails.jsp">${rfc.ID}</a></td>
-                    <td><a href="">${rfc.info}</a></td>
+                    <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/${rfc.info.split(";",2)[0].split("_",2)[1]}">${rfc.info}</a></td>
                     <td>${rfc.name}</td>
                     <td><img src="" alt="structure"></td>
                     <td>${rfc.formula}</td>
