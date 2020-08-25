@@ -74,7 +74,7 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="">Spectrum<span class="caret"/></a></li>
                         <li><a href="${pageContext.request.contextPath}/webpages/browse/experimentalSpectrum.jsp">Experimental Spectrum (crops)</a></li>
-                        <li><a href="${pageContext.request.contextPath}/webpages/browse/standardSpectrum.jsp">Standard spectrum (public databases)</a></li>
+                        <li><a href="${pageContext.request.contextPath}/browse/standardSpectrum">Standard spectrum (public databases)</a></li>
                         <li><a href="${pageContext.request.contextPath}/webpages/browse/inSilicoSpectrum.jsp">In silico spectrum</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="${pageContext.request.contextPath}/webpages/browse/browseMotifsAndModifications.jsp">Motifs and modifications</a></li>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.jt.mapper.StandardSpectrumMapper">
+    <select id="findStandardSpectrumAllByPage" parameterType="standardSpectrum" resultType="standardSpectrum">
+        select * from standardSpectrum
+        <where>
+            <if test="Name!=null and Name!=''">
+                and Name like concat('%',#{Name},'%')
+            </if>
+            <if test="RetentionTime!=null and RetentionTime!=''">
+                and RetentionTime like concat('%',#{RetentionTime},'%')
+            </if>
+            <if test="PrecursorMZ!=null and PrecursorMZ!=''">
+                and PrecursorMZ like concat('%',#{PrecursorMZ},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

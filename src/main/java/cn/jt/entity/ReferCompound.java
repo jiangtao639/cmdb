@@ -1,5 +1,8 @@
 package cn.jt.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component("referCompound")
 public class ReferCompound {
     private String ID;
     private String Info;

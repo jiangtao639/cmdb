@@ -6,6 +6,7 @@
     <!--自定义别名-->
     <typeAliases>
         <typeAlias type="cn.jt.entity.ReferCompound" alias="referCompound"/>
+        <typeAlias type="cn.jt.entity.StandardSpectrum" alias="standardSpectrum"/>
     </typeAliases>
 
 
