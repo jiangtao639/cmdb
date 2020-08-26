@@ -1,7 +1,6 @@
 package cn.jt.entity;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 
 import java.util.List;
 

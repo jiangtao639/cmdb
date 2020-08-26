@@ -9,5 +9,7 @@ public interface ReferCompoundMapper {
 
     List<ReferCompound> findReferCompoundAllByPage(ReferCompound referCompound);
 
+    ReferCompound findReferCompoundById(String ID);
+
 }
 

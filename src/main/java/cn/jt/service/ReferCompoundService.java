@@ -6,4 +6,6 @@ import cn.jt.entity.ReferCompound;
 
 public interface ReferCompoundService {
     PageBean<ReferCompound> findReferCompoundAllByPage(int currentPage, int rows, ReferCompound referCompound);
+    ReferCompound findReferCompoundById(String ID);
+
 }

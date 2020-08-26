@@ -16,4 +16,8 @@
             </if>
         </where>
     </select>
+
+    <select id="findReferCompoundById" parameterType="string" resultType="referCompound">
+        select * from referCompound where ID=#{ID}
+    </select>
 </mapper>

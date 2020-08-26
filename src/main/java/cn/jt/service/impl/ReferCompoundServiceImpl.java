@@ -41,4 +41,10 @@ public class ReferCompoundServiceImpl implements ReferCompoundService {
 
 
     }
+
+    @Override
+    public ReferCompound findReferCompoundById(String ID) {
+        ReferCompound cpd = referCompoundMapper.findReferCompoundById(ID);
+        return cpd;
+    }
 }
