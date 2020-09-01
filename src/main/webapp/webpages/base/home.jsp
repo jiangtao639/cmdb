@@ -100,7 +100,7 @@
 <!--==================================================================================================================-->
 <main>
     <div class="logo">
-        <img src="../../img/logo.png" alt="" width="100%"/>
+        <img src="${pageContext.request.contextPath}/img/logo.png" alt="" width="100%"/>
     </div>
     <div class="jumbotron introduction" style="margin-top: 50px;padding: 10px 50px">
         <h1>Welcome to Crops Metabolomics Database!</h1>
